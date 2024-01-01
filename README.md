@@ -1,2 +1,2 @@
 ТЕХНІЧНЕ ЗАВДАННЯ:
-https://docs.google.com/spreadsheets/d/11f21IsPzXPX1psgbJ4LtyKNovujs1eBxqB4AkyTrXfk/edit#gid=0
+https://docs.google.com/spreadsheets/d/1PDM40ntsPJK5AQ43HHB7L35SKEYspipmP9xRetbjo70/edit#gid=883795363
