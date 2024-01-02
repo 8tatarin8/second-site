@@ -43,12 +43,12 @@ img {
 */
 
 /* продивитись ці стилі */
-/* body {
-  font-family: Inter, sans-serif;
-  background-color: #0e1823;
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: var(--color-black);
 }
 
-.container {
+/* .container {
   max-width: 375px;
   padding: 0px 20px;
   margin: 0 auto;
@@ -92,13 +92,12 @@ section {
 |- BG - колір для фону;----------------------------------|
 */
 :root {
-  --color-1: #040306;
-  --color-body-bg: #0e1823;
-  --color-sec-bg: #1b414b;
-  --accent-color-text: #fbfbfb;
+  --color-black: #1c2225;
+  --color-white: #fcf9f9;
+  --accent-color-text: #ecd979;
 
   /*fonts*/
-  --primary-font: "Inter", sans-serif;
+  --primary-font: "Manrope", sans-serif;
   --secondary-font: "", sans-serif;
 }
 
