@@ -48,13 +48,13 @@ body {
   background-color: var(--color-black);
 }
 
-/* .container {
+.container {
   max-width: 375px;
   padding: 0px 20px;
   margin: 0 auto;
 }
 
-section {
+/* section {
   padding: 40px 0px;
 }
 
