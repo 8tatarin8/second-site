@@ -36,62 +36,129 @@
         <nav class="page-navigation">
           <ul class="header-menu-list">
             <li class="header-menu-item">
-              <a class="header-menu-link" href="#">ABOUT US</a>
+              <a class="header-menu-link" href="#about">ABOUT US</a>
             </li>
             <li class="header-menu-item">
-              <a class="header-menu-link" href="#">OUR COLLECTION </a>
+              <a class="header-menu-link" href="#collection">OUR COLLECTION</a>
             </li>
             <li class="header-menu-item">
-              <a class="header-menu-link" href="#">CUSTOMER ORDER</a>
+              <a class="header-menu-link" href="#order">CUSTOMER ORDER</a>
             </li>
             <li class="header-menu-item">
-              <a class="header-menu-link" href="#">TESTIMONIALS</a>
+              <a class="header-menu-link" href="#testimonials">TESTIMONIALS</a>
             </li>
           </ul>
         </nav>
 
         <address class="header-tel">
-          <a href="tel:+380684439426" class="tel">+380 (68) 443-94-26</a>
+          <a href="tel:+380684439426" class="header-tel-link"
+            >+380 (68) 443-94-26</a
+          >
         </address>
 
         <ul class="header-social-menu-list">
           <li class="header-social-menu-item">
-            <a href="" class="social-network-link">
-              <svg class="header-icon">
-                <use href="#"></use>
+            <a
+              href="https://www.facebook.com/goITclub/"
+              class="social-network-link"
+            >
+              <svg
+                class="header-icon"
+                width="40"
+                height="40"
+                aria-label="facebook icon"
+              >
+                <use href="./images/svg/sprite-icon.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a href="" class="social-network-link">
-              <svg class="header-icon">
-                <use href="#"></use>
+            <a
+              href="https://www.instagram.com/goitclub/"
+              class="social-network-link"
+            >
+              <svg
+                class="header-icon"
+                width="40"
+                height="40"
+                aria-label="instagram icon"
+              >
+                <use href="./images/svg/sprite-icon.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li>
-            <a href="" class="social-network-link">
-              <svg class="header-icon">
-                <use href="#"></use>
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              class="social-network-link"
+            >
+              <svg
+                class="header-icon"
+                width="40"
+                height="40"
+                aria-label="youtube icon"
+              >
+                <use href="./images/svg/sprite-icon.svg#icon-youtube"></use>
               </svg>
             </a>
           </li>
         </ul>
       </div>
     </header>
-    <!-- MOBILE MENU -->
+    <!-- MODAL MOBILE MENU -->
+
+    <div class="modal-mobile-menu-container">
+      <div class="header-mob-content">
+        <div class="header-mob-tel">
+          <a href="tel:+380684439426" class="header-mob-tel-link"
+            >+380 (68) 443-94-26</a
+          >
+        </div>
+        <button class="header-btn-close-modal-window" type="button">
+          <svg
+            class="header-close-icon"
+            width="36"
+            height="36"
+            aria-label="button close icon"
+          >
+            <use href="./images/svg/sprite-icon.svg#icon-x-close"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="box-header-mob-menu-list">
+        <ul class="header-mob-menu-list">
+          <li class="header-mob-menu-list-item">
+            <a href="#about" class="header-mob-menu-link">ABOUT US</a>
+          </li>
+          <li class="header-mob-menu-list-item">
+            <a href="#collection" class="header-mob-menu-link"
+              >OUR COLLECTION</a
+            >
+          </li>
+          <li class="header-mob-menu-list-item">
+            <a href="#order" class="header-mob-menu-link">CUSTOMER ORDER</a>
+          </li>
+          <li class="header-mob-menu-list-item">
+            <a href="#testimonials" class="header-mob-menu-link"
+              >TESTIMONIALS</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <main class="all-mail">
       <!-- SECTION HERO -->
-      <section class="section-hero"></section>
+      <section class="section-hero" id="hero"></section>
       <!-- SECTION ABOUT US -->
-      <section class="section-about-us"></section>
+      <section class="section-about-us" id="about"></section>
       <!-- SECTION OUR COLLECTION -->
-      <section class="section-our-collection"></section>
+      <section class="section-our-collection" id="collection"></section>
       <!-- YOUR-ORDER -->
-      <section class="section-your-order"></section>
+      <section class="section-your-order" id="order"></section>
       <!-- SECTION TESTIMONIALS -->
-      <section class="section-testimonials"></section>
+      <section class="section-testimonials" id="testimonials"></section>
     </main>
     <footer class="all-footer"></footer>
   </body>
