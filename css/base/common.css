@@ -24,10 +24,12 @@ a {
   color: inherit;
 }
 /* для всіх кнопок */
+/* завжди окремо для всіх кнопок прописувати типографію */
 button {
   border-radius: 0;
   padding: 0;
   border: none;
+  cursor: pointer;
 }
 
 /*
