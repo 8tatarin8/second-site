@@ -22,7 +22,7 @@
   <body>
     <!-- SECTION HEADER -->
     <header class="all-header">
-      <div class="header-container">
+      <div class="container header-container">
         <a href="" class="logo">
           <img
             src="./images/svg/logo.svg"
@@ -32,7 +32,6 @@
             height="39"
           />
         </a>
-
         <nav class="page-navigation">
           <ul class="header-menu-list">
             <li class="header-menu-item">
@@ -74,7 +73,7 @@
               </svg>
             </a>
           </li>
-          <li>
+          <li class="header-social-menu-item">
             <a
               href="https://www.instagram.com/goitclub/"
               class="social-network-link"
@@ -91,7 +90,7 @@
               </svg>
             </a>
           </li>
-          <li>
+          <li class="header-social-menu-item">
             <a
               href="https://www.youtube.com/c/GoIT"
               class="social-network-link"
@@ -122,7 +121,7 @@
       </div>
 
       <!-- MODAL MOBILE MENU -->
-      <div class="modal-mobile-menu-container">
+      <!-- <div class="modal-mobile-menu-container">
         <div class="header-mob-content">
           <div class="header-mob-tel">
             <a href="tel:+380684439426" class="header-mob-tel-link"
@@ -161,7 +160,7 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> -->
     </header>
 
     <main class="all-mail">
@@ -176,7 +175,101 @@
       <!-- SECTION TESTIMONIALS -->
       <section class="section-testimonials" id="testimonials"></section>
     </main>
-    <footer class="all-footer"></footer>
+
+    <footer class="all-footer">
+      <div class="container footer-container">
+        <div class="footer-logog-and-menu-list">
+          <a href="" class="logo">
+            <img
+              src="./images/svg/logo.svg"
+              alt="logo"
+              class="logo-img"
+              width="44"
+              height="39"
+            />
+          </a>
+          <div class="footer-menu">
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="#about">ABOUT US</a>
+              </li>
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="#collection"
+                  >OUR COLLECTION</a
+                >
+              </li>
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="#order">CUSTOMER ORDER</a>
+              </li>
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="#testimonials"
+                  >TESTIMONIALS</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="footer-social-menu-list">
+          <li class="footer-social-menu-item">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              class="social-network-link"
+              target="_blank"
+              aria-label="link to facebook"
+            >
+              <svg
+                class="footer-icon"
+                width="28"
+                height="28"
+                aria-label="facebook icon"
+              >
+                <use href="./images/svg/sprite-icon.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-menu-item">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              class="social-network-link"
+              target="_blank"
+              aria-label="link to instagram"
+            >
+              <svg
+                class="footer-icon"
+                width="28"
+                height="28"
+                aria-label="instagram icon"
+              >
+                <use href="./images/svg/sprite-icon.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-menu-item">
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              class="social-network-link"
+              target="_blank"
+              aria-label="link to youtube"
+            >
+              <svg
+                class="footer-icon"
+                width="28"
+                height="28"
+                aria-label="youtube icon"
+              >
+                <use href="./images/svg/sprite-icon.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <p class="footer-text">
+          A touch of
+          <span class="accent-color-footer-text">Ukrainian</span> culture in
+          every embroidery
+        </p>
+      </div>
+    </footer>
 
     <!-- підключив файл JS/MAIN.JS -->
     <script src="./js/main.js"></script>

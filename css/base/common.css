@@ -3,6 +3,13 @@
 |=====|ЗАГАЛЬНІ СТИЛІ/COMMON STYLES|======|
 |=========================================|
 */
+/* !враховуючи, що у Figma неможливо продивитись точні значення - 
+/* !беру за приклад значення із basic_standart:
+/* ?-mobile: 360 px разрешение/(340px) контейнер */
+/* ?-mobile: 480 px разрешение/(460px) контейнер */
+/* ?-tablet: 768 px разрешение/(640px) контейнер */
+/* ?-tablet: 1000 px разрешение/(960 px) контейнер */
+/* ?-desktop: */
 html {
   box-sizing: border-box;
 }
@@ -75,13 +82,19 @@ img {
 body {
   font-family: "Manrope", sans-serif;
   background-color: var(--color-black);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  color: #fcf9f9;
+  font-style: normal;
+  line-height: 1.2;
 }
 
-.container {
+/* .container {
   max-width: 375px;
   padding: 0px 20px;
   margin: 0 auto;
-}
+} */
 
 /* section {
   padding: 40px 0px;
@@ -126,8 +139,9 @@ body {
   --accent-color-text: #ecd979;
 
   /*fonts*/
-  --primary-font: "Manrope", sans-serif;
+  --page-font: "Manrope", sans-serif;
   --secondary-font: "", sans-serif;
+  --accent-color-font: "", sans-serif;
 }
 
 /*стилі для приховаих заголовків*/
