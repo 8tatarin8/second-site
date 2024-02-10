@@ -287,6 +287,20 @@
 }
 .header-mob-menu-burger-icon {
 }
+/* ?================hover/focus================ */
+.header-menu-link:focus,
+.header-menu-link:hover {
+  color: var(--accent-color-text);
+}
+.header-tel-link:focus,
+.header-tel-link:hover {
+  border-color: var(--accent-color-text);
+}
+.header-icon:focus,
+.header-icon:hover {
+  border-color: var(--accent-color-text);
+}
+/* ?=========================================== */
 /*
 |=============================================|
 |=====|OFF/ЗАГАЛЬНІ СТИЛІ/COMMON STYLES|======|
