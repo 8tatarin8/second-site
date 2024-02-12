@@ -88,8 +88,11 @@ body {
   color: #fcf9f9;
   font-style: normal;
   line-height: 1.2;
+  overflow-x: hidden;
 }
-
+.header-mob-menu-btn-burger {
+  display: none;
+}
 /* .container {
   max-width: 375px;
   padding: 0px 20px;
