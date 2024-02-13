@@ -399,7 +399,7 @@
   }
   .header-menu--list {
     width: 320px;
-    height: 100%;
+    height: 350px;
     background-color: var(--accent-color-text);
     color: var(--page-font);
     flex-direction: column;
